@@ -1,0 +1,5 @@
+- The gcdOfStrings function identifies the largest common substring that can evenly divide both input strings. 
+- It first checks if the strings are identical or if they concatenate in both orders to match each other, ensuring they can be constructed from the same repeating substring. 
+- It then uses a helper gcd function to compute the greatest common divisor (GCD) of the lengths of the two strings. 
+- This GCD determines the length of the largest possible repeating substring that can divide both strings. 
+- Finally, the function extracts and returns this substring from the first string.
